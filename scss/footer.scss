@@ -1,0 +1,128 @@
+@import"color";
+@import"fontAll";
+.top-footer{
+    margin-top: 80px;
+    margin-bottom: 60px !important;
+}
+
+.content-5 a,.content-5 a:hover{
+    display: block;
+    text-decoration: none;
+    color: #626262;
+    line-height: 28px;
+    font-size: 0.875rem;
+}
+.content-5 h4{
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #363636;
+    padding-bottom: 35px;
+    padding-top: 80px;
+    text-transform: uppercase;
+}
+.mailto{
+    display: inline-block !important;
+}
+.content-5 i{
+    font-size: 30px;
+    color: #333;
+}
+.content-5 p{
+    font-size: 0.875rem;
+    color:#626262;
+    padding-bottom: 40px;
+
+}
+
+// ****
+.mid-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.mid-footer-1 i{
+    font-size: 2.25rem;
+    color: #333;
+}
+.mid-footer-1 h3{
+    font-size: 1rem;
+    color: #363636;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.mid-footer-1{
+    text-align: center;
+}
+.mid-footer-2{
+    font-size: 0.875rem;
+    color: #626262;
+}
+.form-2{
+    border: 2px solid #e6e6e6;
+    position: relative;
+    border-radius: 5px;
+}
+
+.email{
+    background-color:$myYellow;
+    outline: none;
+    border: none;
+    color:$myWhite;
+    border-radius: 5px;
+    padding: 8px 17px;
+    margin: 6px;
+    font-size: 0.875rem;
+}
+.mid-footer{
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 24px 0  !important;
+    margin-bottom: 37px !important;
+}
+.list-a a{
+    font-size: 13px;
+    font-weight: bold;
+    color: #353535;
+}
+
+.text-18{
+    text-align: center;
+    font-size: 0.875rem;
+    color: #b0b0b0;
+    padding-top: 30px;
+    padding-bottom: 36px;
+}
+// bottom-footer
+.bottom-footer{
+    
+    background-color: #252525;
+   padding: 34px 0;
+}
+.end-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-footer-1{
+    font-size: 0.875rem;
+    color: #b0b0b0;
+}
+.bottom-footer-1 span{
+    color: $myYellow;
+}
+.bottom-footer-2{
+    font-size: 20px;
+    color: $myWhite;
+}
+.bottom-footer-2 i{
+    padding-left: 21px;
+}
+ @media (max-width: 768px) {
+    .bottom-footer-2,.bottom-footer-3,.mid-footer-2 {
+        display: none;
+    }
+}
+@media (max-width: 981px) {
+    .bottom-footer-2 {
+        display: none;
+    }
+}

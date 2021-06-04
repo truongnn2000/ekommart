@@ -1,0 +1,620 @@
+@import"color";
+@import"fontAll";
+
+
+@media (min-width: 769px) {
+    .logo-navnar{
+        display: none;
+    }
+}
+@media(max-width:992px){
+    .block-6, .block-7{
+        padding: 0;
+    }
+}
+@media (max-width:1000px){
+    .hide{
+        display: none;
+    }
+    // .content-1, .content-2{
+    //     display: none;
+    // }
+}
+@media (max-width:1030px){
+    .icon-1{
+        display: none;
+    }
+}
+@media (max-width:840px){
+    .form-1{
+        display: none;
+    }
+}
+@media (max-width:768px) {
+    .top-header, .bottom-header {
+        display: none;
+    }
+    .top-section{
+        width: inherit;
+        margin: 0;
+        justify-content: space-around;
+    }
+    .block-3{
+        top:50%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+}
+
+.navbar{
+    padding: 0;
+    height: auto;
+    background-color: $myYellow !important;
+
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+
+}
+.all, .top-section a, .top-section a:hover{
+    font-size: 1rem;
+    color:$myBlack;
+    font-weight: bold;
+}
+.top-section a{
+    margin-right: 20px;
+}
+.all, .all:focus, .all:hover{
+    height: 60px;
+    width: 300px;
+    display: flex;
+    justify-content: start;
+    background-color: #eac600;
+    border: none;
+    outline: none;
+    align-items: center;
+}
+.fa-bars{
+    margin-left: 21px;
+    margin-right: 7px;
+}
+/* end nav */
+.product-model{
+    margin-top: 30px;
+}
+
+.text-1{
+    font-size: 0.875rem;
+    color: #b0b0b0;
+    line-height: 1.5rem;
+
+}
+.text-2{
+    font-size: 1.125rem;
+    color: #353535;
+    font-weight: bold;
+}
+.product-0{
+    position: relative;
+    width: 428px;
+    height: 138px;
+   background-repeat: no-repeat;
+   border: 1px solid #bebebe;
+  
+}
+.product-1{
+    @extend .product-0;
+    background-image: url(../image/product1.jpg);
+    
+}
+.product-01{
+    @extend .product-0;
+    background-image: url(../image/product2.jpg);
+    
+   
+}
+.product-001{
+    @extend .product-0;
+    background-image: url(../image/product3.jpg);
+    
+}
+.block-2{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translateY(-50%);
+   
+    align-items: center;
+}
+.block-2 button{
+    font-size:0.75rem ;
+    font-weight: bold;
+   
+    background-color:$myWhite;
+    color:$myBlack;
+    border: 2px solid $myRed;
+    border-radius: 5px;
+    padding: 6px 10px;
+}
+//  silder
+.bgr{
+   width: 100%;
+
+   height: 600px;
+}
+.slider{
+    position: relative;
+}
+.block-3{
+  
+    text-align: center;
+    
+    
+    position: absolute;
+    top: 35%;
+    right: 8%;
+}
+.text-3{
+    padding-bottom: 25px;
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: $myWhite;
+}
+.text-4{
+    padding: 25px 0;
+    font-size:1.5rem ;
+    font-weight: bold;
+    color: $myWhite;
+}
+.text-4 span{
+    color: $myYellow;
+}
+.block-3 button{
+    background-color: $myWhite;
+    font-size: 0.875rem ;
+    font-weight: bold;
+    color: $myBlack;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 35px;
+    outline: none;
+}
+/* end slide  */
+.security i{
+    color: $myYellow;
+    font-size: 59px;
+}
+.security h3{
+    color: #353535;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.security p{
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    color: #626262;
+}
+.security{
+    text-align: center;
+}
+.icon-special{
+    margin-top: 56px;
+    position: relative;
+    display: inline-block;
+    padding: 23px;
+    border: 2px solid $myYellow;
+    border-radius: 50%;
+}
+
+
+/* end security */
+.main{
+    background-color: #f6f6f6;
+}
+.h3-tag{
+    font-weight: bold;
+    color: $myBlack;
+    font-size: 1.875rem;
+}
+.slide-1 h3{
+    @extend .h3-tag;
+    margin-top: 67px;
+    margin-bottom: 37px;
+    
+}
+.btn-2, .btn-3, .btn-special{
+    border: none;
+    outline: none;
+    display: block;
+
+}
+.btn-2{
+    padding: 20px 0;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%  ;
+    color: $myBlack;
+    background-color: $myWhite;
+    height: 60px;
+}
+.btn-3{
+    width: 100%  ;
+    padding: 6px 0;
+    font-size: 0.875rem;
+    color: $myWhite;
+    background-color: #252525;
+    height: 40px;
+}
+.btn-special{
+    font-size: 0.875rem;
+    width: 100%  ;
+    padding: 6px 0;
+    background-color: $myYellow;
+    color: $myBlack;
+    height: 40px;
+}
+
+.product-3{
+    position: relative;
+   width: 300px;
+   height: 260px;
+}
+.product-3 img{
+    width: 100%;
+    height: 220px;
+}
+.block-4{
+    position: absolute;
+    width: 220px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+// end slide-1
+.slide-2 h3{
+    @extend .h3-tag;
+    margin-top: 68px;
+    margin-bottom: 33px;
+}
+.block-5{
+    height: 435px;
+    text-align: center;
+    position: relative;
+    background-color: $myWhite;
+    border: 1px solid #eee;
+}
+
+.img-product{
+   height: 200px;
+    width: 119px !important;
+    margin-top: 27px;
+    display: inline-block !important;
+    
+}
+.star-0{
+    display: flex;
+    justify-content: center;
+    padding:20px 0;
+}
+.star{
+   
+    width: auto !important;
+   
+}
+.text-5{
+    font-size: 0.75rem;
+    color: #c4c4c4;
+    
+}
+
+.text-6{
+    font-size:0.875rem;
+    color: $myBlack;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.text-7{
+    font-size: 1rem;
+    color: $myYellow;
+    font-weight: bold;
+}
+.text-7 span{
+    text-decoration: line-through;
+    color: $myBlack;
+    padding-left: 5px;
+}
+.toggle-btn{
+    background-color: #252525;
+   width: 100%;
+   height:42px;
+   color: $myWhite;
+   font-size: 0.875rem;
+   font-weight: bold;
+   margin-top: 5px;
+  display: none;
+  outline: none;
+}
+.block-5:hover{
+    .toggle-btn{
+        display: block;
+    }
+    .toggle{
+        display: block;
+    }
+
+}
+.block-5 button:hover, .block-5 button:hover{
+    display: inline-block;
+}
+.special-1{
+    position: absolute;
+    top: 28px;
+    left: 27px;
+}
+.hide-0{
+    color: #333;
+}
+.hide-0,.hide-00{
+    width: 48px;
+    height: 48px;
+    justify-content: center;
+    display: inline-flex;
+    border: 1px solid $myBlack;
+    align-items: center;
+}
+.hide-00{
+    color: $myWhite;
+    background-color: $myBlack;
+}
+.hide-show{
+    display: flex;
+    position: absolute;
+    top:115px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.toggle{
+    display: none;
+}
+.new{
+    background-color:#111d36;
+    color: $myWhite;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+.sale{
+
+    background-color: #ef3636;
+    color: $myWhite;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+/* banner */
+
+
+
+.content-1{
+    position: absolute;
+    top: -33px;
+    right: 41px;
+}
+
+.content-2{
+    position:absolute;
+    right:0;
+    top:55px;
+}
+.baner{
+    margin-top: 53px !important;
+    .block-6{
+        position: relative;
+        padding-right: 15px;
+        .content-3{
+            position: absolute;
+            top:50%;
+            left: 10%;
+            transform: translateY(-50%);
+        }
+    }
+    .block-7{
+        padding-left: 15px;
+        position: relative;
+        img{
+            margin-top: 33px;
+        }
+        .content-3{
+            position: absolute;
+            top:50%;
+            left: 10%;
+            transform: translateY(-50%);
+
+        }
+    }
+}
+.item-1{
+    
+    background: $myYellow;
+    color: $myBlack;
+    font-size: 0.75rem;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.item-2{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #fdffbe;
+    padding: 7px 9px;
+    border-radius: 5px;
+
+}
+.content-3 h3{
+    color: $myWhite;
+    font-size: 1.875rem;
+}
+.content-3 h3 span{
+    font-weight: bold;
+}
+.text-88{
+    font-size: 1.25rem;
+    color: $myBlack;
+    font-weight: bold;
+    text-decoration: line-through;
+    padding-left: 14px;
+}
+.text-8{
+    color: $myYellow;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.text-9{
+    color: #fdffbe;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.content-3 button{
+    font-size: 0.875rem;
+    font-weight: bold;
+    background: $myWhite;
+    border: none;
+    outline: none;
+    padding: 12px;
+    border-radius: 5px;
+}
+// end carousel
+.big-block{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 39px !important;
+}
+.big-block h3{
+    @extend .h3-tag;
+
+}
+.more-product{
+    margin-top: 67px !important;
+}
+.big-block a{
+    color: $myBlack;
+    font-weight: bold;
+}
+.special-block h3{
+    @extend .h3-tag;
+    margin-bottom: 47px ;
+}
+.col{
+    border: 1px solid #ececec;
+    text-align: center;
+}
+.text-10{
+    color: #b0b0b0;
+    font-size: 0.875rem;
+    padding-top: 37px;
+    
+
+
+}
+.text-12{
+    font-size: 0.875rem;
+    color: $myBlack;
+    padding: 18px 0;
+}
+.col img{
+    height: 288px;
+}
+.col h5{
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.text-11{
+    font-weight: bold;
+    color: $myYellow;
+    font-size: 1rem;
+    margin-bottom: 45px;
+}
+.content-4{
+    font-size: 0.875rem;
+    display: inline-block;
+     margin-bottom: 31px;
+     margin-top: 23px;
+
+}
+.img-small{
+    margin-bottom: 31px;
+    margin-top: 23px;
+}
+.text-13{
+    font-weight: bold;
+    color: $myYellow;
+    font-size: 0.875rem;
+   
+}
+.small-block{
+    background-color: $myWhite;
+    border: 1px solid  #ececec;
+    
+}
+
+// *****
+.last-main{
+    text-align: center;
+    margin-top: 104px !important;
+   
+}
+.owl-3{
+    margin-bottom: 90px;
+}
+.text-14{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.text-15{
+    color: #b0b0b0;
+    font-size: 0.875rem;
+
+}
+.text-16{
+    padding-top: 30px ;
+    color: $myYellow;
+    font-size: 0.875rem;
+    line-height: 36px;
+  
+}
+.text-17{
+    font-size: 1rem;
+    font-weight: bold;
+    align-items: center;
+}
+.btn-4{
+   width: 340px;
+   height: 150px;
+    background-color: $myWhite;
+}
+.btn-5{
+    width: 340px;
+    height: 50px;
+    background-color: #252525;
+    color: $myWhite;
+    font-size: 0.875rem;
+}
+.btn-5 span{
+    color: #b0b0b0;
+}
+.block-8{
+    position: relative;
+    padding-bottom: 50px;
+}
+.block-9{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+// end

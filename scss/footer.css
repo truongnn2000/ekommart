@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url("../font/Gilroy-Medium.eot");
+  src: url("../font/Gilroy-Medium.eot?#iefix") format("embedded-opentype"), url("../font/Gilroy-Medium.woff2") format("woff2"), url("../font/Gilroy-Medium.woff") format("woff"), url("../font/Gilroy-Medium.ttf") format("truetype"), url("../font/Gilroy-Medium.svg") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+.top-footer {
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+.content-5 a, .content-5 a:hover {
+  display: block;
+  text-decoration: none;
+  color: #626262;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.content-5 h4 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #363636;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.content-5 i {
+  font-size: 30px;
+  color: #333;
+}
+
+.content-5 p {
+  font-size: 14px;
+  color: #626262;
+}
+
+.mid-footer-1 i {
+  font-size: 36px;
+  color: #333;
+}
+
+.mid-footer-1 h3 {
+  font-size: 16px;
+  color: #363636;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.mid-footer-1 {
+  text-align: center;
+}
+
+.mid-footer-2 {
+  font-size: 14px;
+  color: #626262;
+}
+
+.form-2 {
+  border: 2px solid #e6e6e6;
+  position: relative;
+  border-radius: 5px;
+}
+
+.email {
+  background-color: #fed700;
+  outline: none;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  padding: 8px 17px;
+  margin: 6px;
+  font-size: 14px;
+}
+
+.mid-footer {
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 24px 0;
+}
+
+.list-a a {
+  font-size: 13px;
+  font-weight: bold;
+  color: #353535;
+}
+
+.text-18 {
+  text-align: center;
+  font-size: 14px;
+  color: #b0b0b0;
+}
+
+.bottom-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #252525;
+  padding: 35px 0;
+}
+
+.bottom-footer-1 {
+  font-size: 14px;
+  color: #b0b0b0;
+}
+
+.bottom-footer-1 span {
+  color: #fed700;
+}
+
+.bottom-footer-2 {
+  font-size: 20px;
+  color: #fff;
+}
+
+.bottom-footer-2 i {
+  padding-left: 21px;
+}
+
+@media (max-width: 768px) {
+  .bottom-footer-2, .bottom-footer-3, .mid-footer-2 {
+    display: none;
+  }
+}
+
+@media (max-width: 981px) {
+  .bottom-footer-2 {
+    display: none;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url("../font/Gilroy-Medium.eot");
+  src: url("../font/Gilroy-Medium.eot?#iefix") format("embedded-opentype"), url("../font/Gilroy-Medium.woff2") format("woff2"), url("../font/Gilroy-Medium.woff") format("woff"), url("../font/Gilroy-Medium.ttf") format("truetype"), url("../font/Gilroy-Medium.svg") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+.top-header {
+  font-size: 14px;
+  line-height: 39px;
+  padding: 19px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sign-in, .sign-in:hover {
+  text-decoration: none;
+  color: #fed700;
+}
+
+.change {
+  background-color: #fff;
+  color: #626262;
+  border: none;
+  margin-top: 15px;
+}
+
+.icon-england {
+  padding-right: 8px;
+}
+
+#money {
+  background-color: #fff;
+  color: #626262;
+  border: none;
+  outline: none;
+}
+
+.btn-group span {
+  color: #dedede;
+}
+
+.bottom-header {
+  border-top: 1px solid #ebebeb;
+  padding: 25px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form-1 {
+  border: 2px solid #e6e6e6;
+  position: relative;
+  border-radius: 5px;
+}
+
+.search {
+  background-color: #fed700;
+  outline: none;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  padding: 3px 23px;
+  margin: 6px;
+  font-size: 14px;
+}
+
+.fa-search {
+  color: #fed700;
+  font-size: 18px;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+
+.form-control-plaintext {
+  padding: 0 162px;
+  outline: none;
+}
+
+.icon-1 {
+  font-size: 24px;
+}
+
+.icon-1 p {
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.icon-1 i {
+  padding-left: 22px;
+  position: relative;
+}
+
+.icon-1 i span {
+  padding: 5px;
+  font-size: 12px;
+  color: #fff;
+  background-color: #ef3636;
+  border-radius: 50%;
+  position: absolute;
+  top: -15px;
+  right: -5px;
+}
+/*# sourceMappingURL=header.css.map */

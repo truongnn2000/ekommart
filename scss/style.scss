@@ -1,0 +1,29 @@
+@import"header";
+@import"section";
+@import"footer";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    font-family: $myFont;
+    font-size: 16px;
+    
+}
+.container{
+    max-width: 1290px;
+}
+p{
+    margin: 0;
+}
+.row{
+    margin: 0;
+    padding: 0;
+}
+.col-12, .col-lg-6, .col-md-12{ 
+    margin: 0;
+    padding: 0;
+    
+}

@@ -1,0 +1,118 @@
+@import"color";
+@import"fontAll";
+
+
+
+
+
+.top-header{
+    font-size:0.875rem;
+    line-height: 39px;
+    padding: 4px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.sign-in, .sign-in:hover{
+    text-decoration: none;
+    color: $myYellow;
+}
+
+@mixin first{
+  background-color:$myWhite;
+  color: $myBoder;
+  border:none;
+}
+.change{
+    @include first;
+    
+}
+
+.icon-england{
+    padding-right: 8px;
+    font-size: 0.875rem;
+}
+#money{
+    @include first;
+    outline: none;
+    display: inline-block;
+}
+.vertical{
+   background-color: #dedede;
+    width: 1px;
+    height: 16px;
+    margin: 13px 19px;
+    display: inline-block;
+}
+
+// end top-header
+
+.bottom-header{
+    border-top: 1px solid #ebebeb;
+    padding: 25px 0;
+    
+}
+.block-01{
+    display: flex;
+    justify-content: space-between;
+}
+.form-1{
+    border: 2px solid #e6e6e6;
+    width: 630px;
+    border-radius: 5px;
+    
+}
+
+.search{
+    background-color:$myYellow;
+    outline: none;
+    border: none;
+    color:$myWhite;
+    border-radius: 5px;
+    height: 34px;
+    width: 97px;
+    margin: 6px;
+    font-size: 0.875rem;
+    line-height: 2.25rem;
+    font-family: 'Poppins', sans-serif;
+}
+.search:focus{
+    outline: none;
+}
+.fa-search{
+    color: $myYellow;
+    font-size: 1.125rem;
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+   
+}
+.form-control-plaintext{
+    padding:0 162px;
+    outline: none;  
+}
+.icon-1{
+    font-size: 1.5rem;
+}
+.icon-1 p{
+    font-size: 1rem;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 36px;
+    color:$myBlack;
+}
+.icon-1 i{
+    padding-left: 22px;
+    position: relative;
+    color: #333;
+}
+.icon-1 i span{
+    padding: 5px;
+    font-size: 0.75rem;
+    color: $myWhite;
+    background-color: $myRed;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    right: -5px;
+}
